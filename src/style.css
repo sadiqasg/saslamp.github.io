@@ -1,0 +1,109 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header {
+    height: 100vh;
+    background: url(./media/desk.jpeg) no-repeat;
+    background-size: cover;
+}
+#header-cover {
+    padding-top: 35vh;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+#header-cover #header-text {
+    border-left: 10px solid tomato;
+    color: #fff;
+}
+#header-cover i {
+    font-size: xx-large;
+    margin: 0 10px;
+    color: tomato;
+    box-shadow: #fff 0 0 1px;
+    padding: 2px;
+}
+.btn {
+    margin-top: 20vh;
+    width: 300px;
+}
+section {
+    height: 100vh;
+    border-bottom: 1px solid #444;
+}
+#about {
+    padding-top: 5%;
+    font-size: larger;
+    opacity: 0.8;
+}
+#about p {
+    margin: 0;
+}
+#tech {
+    background: #278389;
+}
+#tech #mytech {
+    height: 40%;
+}
+#mytech i {
+    font-size: 5rem;
+    margin: 2px 5px;
+    box-shadow: #555 1px 1px 1px;
+    padding: 5px;
+    background: #fff;
+    color: 	rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+#tech #trusted {
+    height: 40%;
+}
+#trusted a {
+    margin: 5px 10px;
+}
+#trusted a img:hover,
+#trusted a img:focus {
+    box-shadow: #278389 0 0 2px;
+    padding: 10px;
+}
+
+.hr-s {
+    width: 100px;
+    color: rgba(0, 0, 0, 0.8);
+    border-width: 2px;
+}
+.hr-w {
+    width: 100px;
+    border-width: 2px;
+    border: 1px solid #fff;
+}
+
+footer nav * {
+    color: #fff;
+    margin: 0 2px;
+}
+
+footer a {
+    font-size: x-large;
+}
+footer a i:hover {
+    color: #278389;
+}
+
+@media screen and (max-width: 767px) {
+    #header-cover .row {
+        display: block;
+    }
+    section {
+        height: auto;
+    }
+    #tech #trusted {
+        height: auto;
+        margin-bottom: 20%;
+    }
+    #trusted a img {
+        width: 70px;
+    }
+    .btn {
+        margin-top: 12vh;
+    }
+}
