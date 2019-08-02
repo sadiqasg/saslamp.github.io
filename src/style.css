@@ -106,4 +106,7 @@ footer a i:hover {
     .btn {
         margin-top: 12vh;
     }
+    #header-cover {
+        padding-top: 25vh;
+    }
 }
