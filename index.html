@@ -20,17 +20,27 @@
         .nav-link.active {
             background-color: #37474f !important;
         }
+        @media only screen and (max-width: 600px) {
+            /* .nav > a{
+                display: none;
+            } */
+            h2 {
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
 
 <body class="special-color">
-    <header></header>
+    <header>
+        
+    </header>
     <main>
         <section class="container p-5">
             <div class="row shadow p-2 rounded white">
                 <div class="col-md-3">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <h3 class="text-center text-monospace mt-3">SAS</h3>
+                        <h3 class="text-center text-monospace mt-3 text-warning">SAS</h3>
                         <a class="nav-link active btn" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                             role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
                         <a class="nav-link btn" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
@@ -39,6 +49,20 @@
                             role="tab" aria-controls="v-pills-messages" aria-selected="false">Portfolio</a>
                         <a class="nav-link btn" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
                             role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
+
+                        <span class="text-center mt-3">
+                            <a href="https://linkedin.com/in/sadiqsambo" target="_blank" class="text-primary">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://github.com/saslamp" target="_blank" class="text-dark ml-1">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                            <a href="https://twitter.com/sas_sambo" target="_blank" class="text-info ml-1">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </span>
+
+                        <a class="mt-3 btn btn-warning" href="./doc/Profile.pdf">Download Resume</a>
                     </div>
                 </div>
                 <div class="col-md-9 rounded special-color" style="height: 80vh; display:table">
@@ -113,7 +137,7 @@
                             aria-labelledby="v-pills-settings-tab">
                             <div class="text-center text-light">
                                 <h5 class="mb-5">
-                                    Want to work with me? Or just want to have a chat over a cup of tea?<br/>
+                                    Want to work with me? Or just want to have a chat over a cup of tea?<br />
                                     Drop a mail or Reach out on Twitter.
                                 </h5>
                                 <span class="bg-light p-2">
