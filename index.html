@@ -21,9 +21,19 @@
             background-color: #37474f !important;
         }
         @media only screen and (max-width: 600px) {
-            /* .nav > a{
-                display: none;
-            } */
+          	.nav {
+          		display: inline;
+          	} 
+            .nav-link {
+            	width: 40%;
+            } 
+            .social-icons {
+            	float: right;
+            }
+            .resume-btn {
+            	float: left;
+            	width: 50%;
+            }
             h2 {
                 margin-top: 10px;
             }
@@ -50,7 +60,7 @@
                         <a class="nav-link btn" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
                             role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
 
-                        <span class="text-center mt-3">
+                        <span class="social-icons mt-3">
                             <a href="https://linkedin.com/in/sadiqsambo" target="_blank" class="text-primary">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </a>
@@ -62,7 +72,7 @@
                             </a>
                         </span>
 
-                        <a class="mt-3 btn btn-warning" href="./doc/Profile.pdf">Download Resume</a>
+                        <a class="mt-3 btn btn-warning resume-btn" href="./doc/Profile.pdf">Download Resume</a>
                     </div>
                 </div>
                 <div class="col-md-9 rounded special-color" style="height: 80vh; display:table">
@@ -117,6 +127,7 @@
                                 <span class="bg-light p-1">Express</span>
                                 <span class="bg-light p-1">RESTful API</span>
                                 <span class="bg-light p-1">PostgreSQL</span>
+                                <span class="bg-light p-1">MySQL</span>
                             </div>
                             <div class="border border-light border-right-0 border-bottom-0 p-1 mt-5">
                                 <span class="float-left bg-warning pl-2 pr-2">Design</span>
@@ -129,7 +140,14 @@
                         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                             aria-labelledby="v-pills-messages-tab">
                             <div class="jumbotron">
-                                <p>Hi there! The portfolio section is being updated, check again soon</p>
+                            	<p>Some Demo</p>
+                            	<hr/>
+                                <p><a href="https://hishonsupply.firebaseapp.com/">Hishon Supply</a></p>
+                                <p><a href="https://christa.firebaseapp.com/">Christa Foundation</a></p>
+                            	<p><a href="https://sas-text.firebaseapp.com/">Personal Text Editor</a></p>
+                                <p><a href="https://github.com/saslamp/sas_codes/tree/master/Wiki-viewer">Wikipedia Viewer</a> <b>[source code]</b></p>
+                                <p><a href="https://github.com/saslamp/node-mysql-crud">Node-MySQL CRUD app</a> <b>[source code]</b></p>
+                                <p><a href="https://github.com/saslamp/attendance-system">Attendance Stystem</a> <b>[source code]</b></p>
                             </div>
                         </div>
 
@@ -137,7 +155,7 @@
                             aria-labelledby="v-pills-settings-tab">
                             <div class="text-center text-light">
                                 <h5 class="mb-5">
-                                    Want to work with me? Or just want to have a chat over a cup of tea?<br />
+                                    Got a job for me? Or just want to have a chat over a cup of tea?<br />
                                     Drop a mail or Reach out on Twitter.
                                 </h5>
                                 <span class="bg-light p-2">
@@ -145,7 +163,7 @@
                                         <i class="fab fa-twitter-square"></i>
                                         @sas_sambo
                                     </a>
-                                    <a class="pl-3 text-dark">|</a>
+                                    <a class="pl-3 text-dark"><br/></a>
                                     <a class="text-dark pl-3">
                                         <i class="fas fa-envelope-square"></i>
                                         sadiqasg@gmail.com
