@@ -1,197 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sadiq</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Signika:300&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
-
-    <!-- custom styles -->
-    <style>
-        .nav-link.active {
-            background-color: #37474f !important;
-        }
-        @media only screen and (max-width: 600px) {
-          	.nav {
-          		display: inline;
-          	} 
-            .nav-link {
-            	width: 40%;
-            } 
-            .social-icons {
-            	float: right;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sadiq</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Signika:300&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+        <!-- Font  -->
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans|Josefin+Sans&display=swap" rel="stylesheet">
+        <!-- Data AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style>
+            html,
+            body {
+                font-family: 'Josefin Sans';
             }
-            .resume-btn {
-            	float: left;
-            	width: 50%;
+            #social * {
+                padding: 0 2px;
             }
-            h2 {
-                margin-top: 10px;
+            #social *:hover {
+                opacity: 0.5;
+                transform: scale(1.3);
             }
-        }
-    </style>
-</head>
-
-<body class="special-color">
-    <header>
-        
-    </header>
-    <main>
-        <section class="container p-5">
-            <div class="row shadow p-2 rounded white">
-                <div class="col-md-3">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <h3 class="text-center text-monospace mt-3 text-warning">SAS</h3>
-                        <a class="nav-link active btn" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                            role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
-                        <a class="nav-link btn" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                            role="tab" aria-controls="v-pills-profile" aria-selected="false">Skills</a>
-                        <a class="nav-link btn" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
-                            role="tab" aria-controls="v-pills-messages" aria-selected="false">Portfolio</a>
-                        <a class="nav-link btn" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
-                            role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
-
-                        <span class="social-icons mt-3">
-                            <a href="https://linkedin.com/in/sadiqsambo" target="_blank" class="text-primary">
-                                <i class="fab fa-linkedin fa-2x"></i>
-                            </a>
-                            <a href="https://github.com/saslamp" target="_blank" class="text-dark ml-1">
-                                <i class="fab fa-github fa-2x"></i>
-                            </a>
-                            <a href="https://twitter.com/sas_sambo" target="_blank" class="text-info ml-1">
-                                <i class="fab fa-twitter fa-2x"></i>
-                            </a>
-                        </span>
-
-                        <a class="mt-3 btn btn-warning resume-btn" href="./doc/Profile.pdf">Download Resume</a>
+            #main p {
+                font-size: larger;
+            }
+        </style>
+    </head>
+    <body class="">
+        <header></header>
+        <main>
+            <div class="row">
+                <div class="col-md-4 elegant-color" style="height: 100vh;overflow: hidden;">
+                    <div class="d-flex justify-content-end">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player
+                            src="https://assets2.lottiefiles.com/packages/lf20_LCzL7g.json"
+                            background="transparent"
+                            speed="0.5"
+                            style="width: 300px; height: 300px;"
+                            autoplay
+                        ></lottie-player>
                     </div>
+                    <div class="white-text container text-right mt-5 border-right border-warning">
+                        <h3 class="text-uppercase text-warning m-0" data-aos="fade-left" data-aos-duration="1500">sambo</h3>
+                        <h2 class="text-muted m-0" data-aos="fade-right" data-aos-duration="1500">Abubakar Sadiq</h2>
+                    </div>
+                    <section class="d-flex justify-content-end">
+                        <div class="bg-light rounded col-8 mt-3 pr-1 text-right">
+                            <p class="pt-2 pb-1">
+                                <a href="mailto:sadiqasg@gmail.com" class="text-dark">
+                                    <em>SadiqASG@gmail.com</em>
+                                </a>
+                            </p>
+                            <p id="social">
+                                <a href="https://github.com/saslamp">
+                                    <i class="fab fa-github fa-2x text-dark"></i>
+                                </a>
+                                <a href="https://twitter.com/sas_sambo">
+                                    <i class="fab fa-twitter fa-2x text-info"></i>
+                                </a>
+                                <a href="https://instagram.com/sas.sambo">
+                                    <i class="fab fa-instagram fa-2x text-danger"></i>
+                                </a>
+                                <a href="https://wa.me/2347038334703">
+                                    <i class="fab fa-whatsapp fa-2x text-success"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </section>
                 </div>
-                <div class="col-md-9 rounded special-color" style="height: 80vh; display:table">
-
-                    <div class="tab-content" style="display:table-cell;vertical-align:middle" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab">
-
-                            <div class="text-center">
-                                <h2 class="animated fadeIn text-white text-monospace">Abubakar Sambo</h2>
-                                <h4 class="animated fadeIn text-muted">Frontend Developer | Budding Backend Developer +
-                                    UI/UX</h4>
-                                <hr width="30%" />
-                                <p class="text-justified text-white">
-                                    Hi there! I am Abubakar Sadiq Sambo, a graduate of business administration and a
-                                    tech enthusiast. Most people call me Sadiq.<br />
-                                    My great passion is pursuing my curiousity. I've been curious about how some
-                                    characters can come together
-                                    and solve problems in form of programs and applications. So I'm a software
-                                    developer.<br />
-                                    I'm curious about astronomy, perhaps my technical passion will land me in that
-                                    space. (see what I did there?).<br />
-                                    <span class="mt-1">
-                                        In my spare time, when I'm not trying to save the world one line of code at a
-                                        time.. I'm playing video games, chess, or out horse-riding.
-                                    </span>
-                                </p>
-                            </div>
-
-
-                        </div>
-
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab">
-                            <div class="border border-light border-right-0 border-bottom-0 p-1">
-                                <span class="float-left bg-warning pl-2 pr-2">Front-End Development</span>
-                                <br />
-                                <br />
-                                <span class="bg-light p-1">HTML</span>
-                                <span class="bg-light p-1">CSS</span>
-                                <span class="bg-light p-1">SCSS</span>
-                                <span class="bg-light p-1">Javascript</span>
-                                <span class="bg-light p-1">Bootstrap</span>
-                                <span class="bg-light p-1">Jquery</span>
-                                <span class="bg-light p-1">Angular</span>
-                            </div>
-                            <div class="border border-light border-right-0 border-bottom-0 p-1 mt-5">
-                                <span class="float-left bg-warning pl-2 pr-2">Back-End Development</span>
-                                <br />
-                                <br />
-                                <span class="bg-light p-1">Nodejs</span>
-                                <span class="bg-light p-1">Express</span>
-                                <span class="bg-light p-1">RESTful API</span>
-                                <span class="bg-light p-1">PostgreSQL</span>
-                                <span class="bg-light p-1">MySQL</span>
-                                <span class="bg-light p-1">MongoDB</span>
-                            </div>
-                            <div class="border border-light border-right-0 border-bottom-0 p-1 mt-5">
-                                <span class="float-left bg-warning pl-2 pr-2">Design</span>
-                                <br />
-                                <br />
-                                <span class="bg-light p-1">Figma</span>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                            aria-labelledby="v-pills-messages-tab">
-                            <div class="jumbotron">
-                            	<p>Some Demo</p>
-                            	<hr/>
-                                <p><a href="https://hishonsupply.firebaseapp.com/">Hishon Supply</a></p>
-                                <p><a href="https://christa.firebaseapp.com/">Christa Foundation</a></p>
-                            	<p><a href="https://sas-text.firebaseapp.com/">Personal Text Editor</a></p>
-                                <p><a href="https://github.com/saslamp/sas_codes/tree/master/Wiki-viewer">Wikipedia Viewer</a> <b>[source code]</b></p>
-                                <p><a href="https://github.com/saslamp/node-mysql-crud">Node-MySQL CRUD app</a> <b>[source code]</b></p>
-                                <p><a href="https://github.com/saslamp/attendance-system">Attendance Stystem</a> <b>[source code]</b></p>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                            aria-labelledby="v-pills-settings-tab">
-                            <div class="text-center text-light">
-                                <h5 class="mb-5">
-                                    Got a job for me? Or just want to have a chat over a cup of tea?<br />
-                                    Drop a mail or Reach out on Twitter.
-                                </h5>
-                                <span class="bg-light p-2">
-                                    <a href="https://twitter.com/sas_sambo">
-                                        <i class="fab fa-twitter-square"></i>
-                                        @sas_sambo
-                                    </a>
-                                    <a class="pl-3 text-dark"><br/></a>
-                                    <a class="text-dark pl-3">
-                                        <i class="fas fa-envelope-square"></i>
-                                        sadiqasg@gmail.com
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="col-md-8 container" id="main" style="height:100vh;overflow:scroll">
+                    <section class="mt-5 container">
+                        <h3>
+                            <span class="elegant-color text-white p-2 rounded">Software Developer</span>
+                        </h3>
+                        <section class="text-muted">
+                            <p class="text-justify mt-5">
+                                Hi, I'm Sadiq.
+                            </p>
+                            <p class="text-justify">
+                                A Full Stack Software Developer from North-East Nigeria.
+                                <br>
+                                I enjoy designing and building software products that solve real-life problems.
+                            </p>
+                        </section>
+                    </section>
+                    <section class="container mt-5">
+                        <h4 data-aos="fade-left">Technology Stack</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <p class="text-warning">Front End Development</p>
+                                <ul class="list-group list-group-horizontal text-muted">
+                                    <li class="list-group-item">HTML</li>
+                                    <li class="list-group-item">CSS</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Bootstrap</li>
+                                    <li class="list-group-item">JQuery</li>
+                                    <li class="list-group-item">ReactJs</li>
+                                    <li class="list-group-item">Angular</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-warning">Back End Development & Database</p>
+                                <ul class="list-group list-group-horizontal text-muted">
+                                    <li class="list-group-item">NodeJs(Express)</li>
+                                    <li class="list-group-item">MongoDB</li>
+                                    <li class="list-group-item">PostgreSQL</li>
+                                    <li class="list-group-item">MySQL</li>
+                                    <li class="list-group-item">Firebase</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-warning">Design</p>
+                                <ul class="list-group list-group-horizontal text-muted">
+                                    <li class="list-group-item">Figma</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="mt-3 btn btn-warning resume-btn" href="./doc/ABUBAKAR sadiq SAMBO.pdf">My Resume</a>
+                    </section>
                 </div>
             </div>
-            </div>
-        </section>
-    </main>
-    <footer></footer>
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
-    <!-- Custom script -->
-</body>
-
+        </main>
+        <footer></footer>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+        <!-- Data AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+              AOS.init();
+        </script>
+    </body>
 </html>
