@@ -34,6 +34,14 @@
             * .list-group-horizontal {
                 overflow-x: scroll;
             }
+            .mobile-text {
+                display: none;
+            }
+            @media only screen and (max-width: 600px) {
+                .mobile-text {
+                    display: block;
+                }
+            }
         </style>
     </head>
     <body class="">
@@ -91,7 +99,7 @@
                             <p class="text-justify">
                                 A Full Stack Software Developer from North-East Nigeria.
                                 <br>
-                                I enjoy designing and building software products that solve real-life problems.
+                                I enjoy designing and building software products that solve real-life problems. & Javascript is my fullstack tool.
                             </p>
                         </section>
                     </section>
@@ -100,18 +108,20 @@
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <p class="text-warning">Front End Development</p>
+                                <span class="mobile-text text-muted"><small>Scroll &rarr;</small></span>
                                 <ul class="list-group list-group-horizontal text-muted">
+                                    <li class="list-group-item">Javascript</li>
                                     <li class="list-group-item">HTML</li>
+                                    <li class="list-group-item">ReactJs</li>
                                     <li class="list-group-item">CSS</li>
-                                    <li class="list-group-item">JavaScript</li>
                                     <li class="list-group-item">Bootstrap</li>
                                     <li class="list-group-item">JQuery</li>
-                                    <li class="list-group-item">ReactJs</li>
                                     <li class="list-group-item">Angular</li>
                                 </ul>
                             </li>
                             <li class="list-group-item">
                                 <p class="text-warning">Back End Development & Database</p>
+                                <span class="mobile-text text-muted"><small>Scroll &rarr;</small></span>                                
                                 <ul class="list-group list-group-horizontal text-muted">
                                     <li class="list-group-item">NodeJs(Express)</li>
                                     <li class="list-group-item">MongoDB</li>
