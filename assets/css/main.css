@@ -82,11 +82,24 @@ header #buttons {
   opacity: 0.9;
 }
 
+.card-text {
+  opacity: 0.7;
+}
+
 .card:hover {
   cursor: pointer;
   background-image: none;
   background-color: rgba(252, 163, 17, 0.6);
   color: var(--navy);
+}
+
+.fix-height {
+  height: 250px !important;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
 }
 
 .hr {
