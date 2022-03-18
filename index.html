@@ -1,192 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SAS</title>
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-        <!-- MDB -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet">
-        <!-- Custom Style -->
-        <link rel="stylesheet" href="./assets/css/main.css">
-        <!-- AOS -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- Font -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="loading">
-            <lottie-player
-                src="https://assets3.lottiefiles.com/packages/lf20_29E3so.json"
-                background="transparent"
-                speed="1"
-                style="width: 300px; height: 300px;"
-                loop
-                autoplay
-            ></lottie-player>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAS</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading">
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_29E3so.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </div>
+    <header id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <h4 class="p-0 m-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">sambo</h4>
+            <h3 class="p-0 my-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">abubakar sadiq</h3>
+            <h1 class="mt-2 orange-text" data-aos="fade-left" data-aos-duration="3000">Software Engineer</h1>
+            <hr size="30%" align="center">
+            <div class="mt-4" id="buttons" data-aos="zoom-in" data-aos-duration="2500">
+                <a href="./portfolio.html" class="btn">View Portfolio</a>
+                <h5 class="pt-2" style="margin-left: 1em;">
+                    <!-- <a href="https://forms.gle/pUjzCdd8E1aPJhMf9" class="text-light" target="_blank">Contact Me!</a> -->
+                    <a class="pt-2 text-warning" href="mailto:sadiqasg@gmail.com">sadiqasg@gmail.com</a>
+                </h5>
+            </div>
         </div>
-        <header id="hero" class="d-flex align-items-center">
-            <div class="container">
-                <h4 class="p-0 m-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">sambo</h4>
-                <h3 class="p-0 my-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">abubakar sadiq</h3>
-                <h1 class="mt-2 orange-text" data-aos="fade-left" data-aos-duration="3000">Software Engineer</h1>
-                <div
-                    class="mt-4"
-                    id="buttons"
-                    data-aos="zoom-in"
-                    data-aos-duration="2500"
-                >
-                    <a href="./portfolio.html" class="btn">View Portfolio</a>
-                    <h5 class="pt-2" style="margin-left: 1em;">
-                        <a
-                            href="https://forms.gle/pUjzCdd8E1aPJhMf9"
-                            class="text-light"
-                            target="_blank"
-                        >Contact Me!</a>
-                    </h5>
+        <div id="bottom" class="w-100">
+            <a href="#technologies" class="light-text">
+                <p class="mb-0 pb-0">Dive In</p>
+                <i class="mt-0 pt-0 fa fa-caret-down fa-2x"></i>
+            </a>
+        </div>
+    </header>
+    <main class="container">
+        <section id="technologies" class="py-5">
+            <h4 class="sub-heading">Technologies & Tools</h4>
+            <hr class="sub-hr">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card shadow h-100">
+                        <h4 class="card-title">
+                            <i class="fas fa-laptop-code"></i> Front End
+                            <i class="fas fa-code"></i>
+                        </h4>
+                        <hr class="hr">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li>HTML | React.js</li>
+                                <li>CSS | Bootstrap</li>
+                                <li>JavaScript | jQuery</li>
+                                <li>Typescript</li>
+                                <li>Python (Django)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card shadow h-100">
+                        <h4 class="card-title">
+                            <i class="fas fa-server"></i> Server & Database
+                            <i class="fas fa-database"></i>
+                        </h4>
+                        <hr class="hr">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li>Node.js (Express) | Typescript</li>
+                                <li>MongoDB</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card shadow h-100">
+                        <h4 class="card-title">
+                            <i class="fas fa-cloud"></i> Tools
+                            <i class="fas fa-paint-brush"></i>
+                        </h4>
+                        <hr class="hr">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li>Figma</li>
+                                <li>Github | Bitbucket</li>
+                                <li>Trello | Pivotal tracker</li>
+                                <li>Heroku | Firebase | Vercel</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="bottom" class="w-100">
-                <a href="#technologies" class="light-text">
-                    <p class="mb-0 pb-0">Dive In</p>
-                    <i class="mt-0 pt-0 fa fa-caret-down fa-2x"></i>
+        </section>
+        <section class="mt-3 mb-5 pb-5 text-center">
+            <h4 class="sub-heading">Connect</h4>
+            <hr class="sub-hr">
+            <div id="social">
+                <a href="https://twitter.com/arafat_sambo" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-twitter fa-3x text-info"></i>
+                </a>
+                <a href="https://linkedin.com/in/sadiqsambo" class="me-4 text-reset">
+                    <i class="fab fa-linkedin fa-3x text-primary"></i>
+                </a>
+                <a href="https://github.com/saslamp" class="me-4 text-reset">
+                    <i class="fab fa-github fa-3x text-dark"></i>
                 </a>
             </div>
-        </header>
-        <main class="container">
-            <section id="technologies" class="py-5">
-                <h4 class="sub-heading">Technologies & Tools</h4>
-                <hr class="sub-hr">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="card shadow h-100">
-                            <h4 class="card-title">
-                                <i class="fas fa-laptop-code"></i>
-                                Front End
-                                <i class="fas fa-code"></i>
-                            </h4>
-                            <hr class="hr">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li>HTML | React.js</li>
-                                    <li>CSS | Bootstrap</li>
-                                    <li>JavaScript | jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow h-100">
-                            <h4 class="card-title">
-                                <i class="fas fa-server"></i>
-                                Server & Database
-                                <i class="fas fa-database"></i>
-                            </h4>
-                            <hr class="hr">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li>Node.js (Express)</li>
-                                    <li>MongoDB</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow h-100">
-                            <h4 class="card-title">
-                                <i class="fas fa-cloud"></i>
-                                Tools
-                                <i class="fas fa-paint-brush"></i>
-                            </h4>
-                            <hr class="hr">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li>Figma</li>
-                                    <li>Github | Bitbucket</li>
-                                    <li>Trello | Pivotal tracker</li>
-                                    <li>Heroku | Firebase | Vercel</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </section>
-            <section class="mt-3 mb-5 pb-5 text-center">
-                <h4 class="sub-heading">Connect</h4>
-                <hr class="sub-hr">
-                <div id="social">
-                    <a href="https://twitter.com/arafat_sambo" target="_blank" class="me-4 text-reset">
-                        <i class="fab fa-twitter fa-3x text-info"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/sadiqsambo" class="me-4 text-reset">
-                        <i class="fab fa-linkedin fa-3x text-primary"></i>
-                    </a>
-                    <a href="https://github.com/saslamp" class="me-4 text-reset">
-                        <i class="fab fa-github fa-3x text-dark"></i>
-                    </a>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmDBm_dOvs98nTu0Q4fTpmCj1ngHqPjdsEvM_u39xD-cgNxQ/viewform?embedded=true" width="100%" height="1503" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
-            </section>
-        </main>
-        <!-- Modal -->
-        <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-mdb-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe
-                            src="https://docs.google.com/forms/d/e/1FAIpQLScmDBm_dOvs98nTu0Q4fTpmCj1ngHqPjdsEvM_u39xD-cgNxQ/viewform?embedded=true"
-                            width="100%"
-                            height="1503"
-                            frameborder="0"
-                            marginheight="0"
-                            marginwidth="0"
-                        >Loading…</iframe>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger btn-sm" data-mdb-dismiss="modal">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" data-mdb-dismiss="modal">
                             Cancel
                         </button>
-                    </div>
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <!-- MDB -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <script src="https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js"></script>
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init({
-              once: true
-            });
-        </script>
-        <script>
-          // $(window).load(function() {
-            setTimeout(() => {
-              $('#loading').hide();
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+    <script>
+        // $(window).load(function() {
+        setTimeout(() => {
+                $('#loading').hide();
             }, 1500)
             // $('#loading').hide();
-          // });
-        </script>
-    </body>
+            // });
+    </script>
+</body>
+
 </html>
