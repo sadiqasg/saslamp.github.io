@@ -7,6 +7,7 @@
     <title>SAS</title>
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <!-- MDB -->
@@ -21,100 +22,148 @@
 </head>
 
 <body>
-    <div id="loading">
+    <!-- <div id="loading">
         <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_29E3so.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-    </div>
-    <header id="hero" class="d-flex align-items-center">
-        <div class="container">
-            <h4 class="p-0 m-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">sambo</h4>
-            <h3 class="p-0 my-0 light-text text-uppercase" data-aos="fade-right" data-aos-duration="2500">abubakar sadiq</h3>
-            <h1 class="mt-2 orange-text" data-aos="fade-left" data-aos-duration="3000">Software Engineer</h1>
-            <hr size="30%" align="center">
+    </div> -->
+    <!-- <a href="https://forms.gle/pUjzCdd8E1aPJhMf9" class="text-light" target="_blank">Contact Me!</a> -->
+    <header class="d-flex align-items-center">
+        <div class="container" style="text-align: left;">
+            <p>Hi, I am</p>
+            <h2 class="p-0 m-0 light-text text-capitalize" data-aos="fade-right" data-aos-duration="2500">sambo</h2>
+            <h2 class="p-0 my-0 light-text text-capitalize" data-aos="fade-right" data-aos-duration="2500">abubakar sadiq</h2>
+            <h3 class="mt-2 orange-text" data-aos="fade-left" data-aos-duration="3000">Software Engineer</h3>
+            <hr/>
             <div class="mt-4" id="buttons" data-aos="zoom-in" data-aos-duration="2500">
-                <a href="./portfolio.html" class="btn">View Portfolio</a>
+                <a href="./portfolio.html" class="btn btn-outline">View Portfolio</a>
                 <h5 class="pt-2" style="margin-left: 1em;">
-                    <!-- <a href="https://forms.gle/pUjzCdd8E1aPJhMf9" class="text-light" target="_blank">Contact Me!</a> -->
                     <a class="pt-2 text-warning" href="mailto:sadiqasg@gmail.com">sadiqasg@gmail.com</a>
                 </h5>
             </div>
         </div>
         <div id="bottom" class="w-100">
-            <a href="#technologies" class="light-text">
+            <a href="#about" class="light-text">
                 <p class="mb-0 pb-0">Dive In</p>
                 <i class="mt-0 pt-0 fa fa-caret-down fa-2x"></i>
             </a>
         </div>
     </header>
     <main class="container">
-        <section id="technologies" class="py-5">
-            <h4 class="sub-heading">Technologies & Tools</h4>
+        <section class="mt-5 pt-3" id="about">
+            <h4 class="orange-text">About</h4>
             <hr class="sub-hr">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card shadow h-100">
-                        <h4 class="card-title">
-                            <i class="fas fa-laptop-code"></i> Front End
-                            <i class="fas fa-code"></i>
-                        </h4>
-                        <hr class="hr">
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li>HTML | React.js</li>
-                                <li>CSS | Bootstrap</li>
-                                <li>JavaScript | jQuery</li>
-                                <li>Typescript</li>
-                                <li>Python (Django)</li>
-                            </ul>
-                        </div>
-                    </div>
+            <p>I’m Sadiq; a software engineer from Nigeria, specializing in developing (and occasionally designing) web solutions.</p>
+            <p>Currently, I’m part of a team building a dedicated web platform that links budget and procurement data to various public services using the Open Contracting Data Standards (OCDS) [<a href="https://www.budeshi.ng/" target="blank">Budeshi</a>                & <a href="https://budeshi.ng/budeshi-hub/">Budeshi Hub</a> ], among other projects, at <a href="https://www.procurementmonitor.org/">PPDC</a>.</p>
+            <p>When I'm not trying to save the world with some lines of code, I love playing video games, chess, & watching documentaries on Astronomy, Marine life, and horse-riding.</p>
+        </section>
+        <section id="technologies" class="py-5">
+            <h4 class="orange-text">Technologies & Tools</h4>
+            <hr class="sub-hr">
+            <p>Some Technologies and Tools I've developed with</p>
+            <div class="row p-3">
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-html5 fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">HTML</figcaption>
+                    </figure>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card shadow h-100">
-                        <h4 class="card-title">
-                            <i class="fas fa-server"></i> Server & Database
-                            <i class="fas fa-database"></i>
-                        </h4>
-                        <hr class="hr">
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li>Node.js (Express) | Typescript</li>
-                                <li>MongoDB</li>
-                                <li>PostgreSQL</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-css3-alt fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">CSS</figcaption>
+                    </figure>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card shadow h-100">
-                        <h4 class="card-title">
-                            <i class="fas fa-cloud"></i> Tools
-                            <i class="fas fa-paint-brush"></i>
-                        </h4>
-                        <hr class="hr">
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li>Figma</li>
-                                <li>Github | Bitbucket</li>
-                                <li>Trello | Pivotal tracker</li>
-                                <li>Heroku | Firebase | Vercel</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-bootstrap fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Bootstrap</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-mdb fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Material Bootstrap</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-js fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Javascript</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-node fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">NodeJs</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fab fa-react fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">ReactJs</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style=" fill:#4F4F4F;"><path d="M45,4H5C4.447,4,4,4.448,4,5v40c0,0.552,0.447,1,1,1h40c0.553,0,1-0.448,1-1V5C46,4.448,45.553,4,45,4z M29,26.445h-5V42h-4	V26.445h-5V23h14V26.445z M30.121,41.112v-4.158c0,0,2.271,1.712,4.996,1.712c2.725,0,2.62-1.782,2.62-2.026	c0-2.586-7.721-2.586-7.721-8.315c0-7.791,11.25-4.717,11.25-4.717l-0.14,3.704c0,0-1.887-1.258-4.018-1.258s-2.9,1.013-2.9,2.096	c0,2.795,7.791,2.516,7.791,8.141C42,44.955,30.121,41.112,30.121,41.112z"></path></svg>
+                        <figcaption class="icons-container--icon-caption">Typescript</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-python fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Python</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" width="50px" height="50px" style="fill: #4F4F4F;"><title>MongoDB icon</title><path d="M17.18 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.266.939 11.885 0 11.885 0c-.002.019-.004.031-.005.049v.013h-.001c-.002.015-.003.025-.004.039v.015h-.002c0 .01-.002.018-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002c0 .01-.001.022-.002.032v.002c-.003.017-.006.034-.009.05v.008h-.002c-.001.004-.003.008-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013H11.8v.015h-.004c-.001.001-.001.003-.001.004v.01h-.003c-.001.002-.001.004-.001.006v.006h-.002c-.001.003-.002.008-.002.01-.003.007-.007.014-.01.021v.002c-.002.002-.004.005-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002c-.001.002-.002.002-.002.004v.001h-.001c-.001.003-.002.005-.004.007v.003h-.001c-.005.006-.008.012-.012.018v.001c-.002.002-.007.006-.009.01v.002h-.001c-.001.001-.003.002-.003.003v.003h-.002l-.003.003v.001h-.001c0 .001-.002.002-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004c0 .001-.001.002-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003c-.001.001-.001.002-.001.002v.002h-.002l-.004.004s-.002.002-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016-.002.002-.008.007-.012.01-.012.008-.027.021-.039.032-.008.005-.016.012-.022.017v.001h-.001c-.016.013-.031.025-.049.039v.001c-.024.02-.047.039-.074.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.169.148-.37.338-.595.568l-.015.015-.004.004C9 3.494 6.857 6.426 6.631 11.164c-.02.392-.016.773.006 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.441 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662.106-.075.42-.301.797-.645.018-.019.028-.036.044-.054 1.521-1.418 4.362-4.91 3.388-10.599z"/></svg>
+                        <figcaption class="icons-container--icon-caption">MongoDB</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <svg fill="#4F4F4F" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 35.199219 2.101563 C 33.699219 2.101563 32.398438 2.398438 31.199219 2.699219 C 33.300781 3.597656 34.601563 4.699219 35.300781 5.199219 C 36.902344 6.597656 37.800781 8 39.402344 10.300781 C 39.699219 10.800781 40.199219 11.5 40.5 12.597656 C 40.800781 13.597656 40.800781 14.398438 40.800781 15.199219 C 40.800781 16.300781 40.699219 17.199219 40.597656 18.097656 C 40.5 18.800781 40.5 19.101563 40.402344 19.300781 C 40.402344 19.402344 40.402344 19.5 40.300781 19.699219 C 40.300781 20.199219 40.300781 20.402344 40.402344 20.800781 C 40.402344 21.199219 40.5 21.601563 40.5 22.300781 C 40.601563 23.601563 40.601563 24.5 40.402344 25.597656 L 40.402344 26 C 40.199219 26.898438 40 27.800781 39.5 28.597656 C 39.601563 28.800781 39.699219 28.898438 39.800781 29.097656 C 40.300781 28.398438 40.699219 27.699219 41.097656 26.902344 C 42.300781 24.699219 43 22.800781 43.5 21.402344 C 44.398438 18.800781 44.898438 16.898438 45.199219 15.5 C 45.898438 12.5 46 11.101563 45.699219 9.5 C 45.699219 9 45.5 8.097656 45 7.199219 C 43.898438 5.199219 42.199219 4.300781 41 3.699219 C 40.199219 3.300781 38.097656 2.199219 35.199219 2.101563 Z M 13.535156 2.542969 C 12.382813 2.519531 10.976563 2.648438 9.398438 3.398438 C 8.898438 3.601563 7.398438 4.300781 6.199219 5.898438 C 5.398438 6.898438 4.800781 8.398438 4.5 10.097656 C 4.199219 11.597656 4.097656 13.402344 4.699219 16.800781 C 5.097656 19.199219 5.5 20.800781 6.300781 24.097656 C 6.402344 24.5 7 26.300781 8.300781 30.300781 L 8.398438 30.5 C 8.601563 31.199219 9.199219 32.699219 10.5 34.199219 C 11.398438 35.199219 12.199219 35.800781 12.902344 35.800781 L 13.097656 35.800781 C 14.398438 35.800781 15.300781 34.800781 16.097656 34 C 16.097656 33.898438 18 31.601563 18.699219 30.800781 C 18.597656 30.699219 18.402344 30.699219 18.300781 30.597656 C 17.101563 29.898438 16.199219 28.800781 15.5 27.597656 C 14.300781 25.398438 14.398438 23.199219 14.597656 22.097656 L 14.699219 20.402344 C 14.300781 17.699219 14.402344 15.101563 14.902344 12.5 C 15.300781 10.300781 15.800781 8.101563 17.597656 5.800781 C 18.199219 5 18.898438 4.300781 19.597656 3.800781 C 18 3.101563 16.300781 2.699219 14.597656 2.601563 C 14.273438 2.574219 13.917969 2.550781 13.535156 2.542969 Z M 26.097656 3.398438 C 25.597656 3.398438 25.097656 3.398438 24.597656 3.5 C 22.597656 3.898438 20.699219 5 19.199219 6.898438 C 17.699219 8.800781 17.300781 10.597656 16.902344 12.699219 C 16.699219 13.5 16.699219 14.199219 16.597656 15 C 17.199219 14.5 18 13.898438 19.199219 13.597656 C 19.898438 13.398438 21.699219 12.800781 23.199219 13.699219 C 23.699219 14 24.398438 14.601563 25.097656 16.300781 C 26.597656 20.5 25.101563 24.800781 24.902344 25.199219 C 24.800781 25.597656 24.601563 25.898438 24.5 26.097656 C 24.300781 26.597656 24.101563 27 23.902344 27.800781 C 23.800781 28.5 23.699219 29.101563 23.699219 29.800781 C 24 29.800781 24.300781 29.898438 24.597656 30.097656 C 25.097656 30.597656 25.199219 31.300781 25.300781 31.597656 C 25.5 33.199219 25.5 35.199219 25.5 37.199219 C 25.5 38.800781 25.5 40.300781 25.597656 41.300781 C 25.800781 43.601563 26.5 45.199219 27.5 46 C 28.199219 46.601563 29.097656 46.597656 29.597656 46.699219 L 29.800781 46.699219 C 31.300781 46.699219 33.699219 45.699219 34.597656 44.300781 C 35.097656 43.5 35.300781 42.800781 35.5 41.800781 C 35.601563 41.199219 35.597656 40.902344 35.699219 40.300781 C 35.699219 40 35.800781 39.5 35.800781 38.902344 C 35.800781 38.402344 35.898438 37.800781 36 37.097656 C 36.101563 35.398438 36.398438 33.402344 36.5 32.300781 C 36.601563 31 37.199219 29.898438 37.699219 29.199219 C 37 29.097656 36.300781 28.5 35.902344 27.5 C 35.300781 26.398438 35.199219 26.097656 35.097656 25.597656 C 35 25.199219 34.800781 24.699219 34.097656 23.199219 C 32.597656 19.800781 32.402344 18.800781 32.402344 18 C 32.300781 16.898438 32.199219 15.402344 33.402344 14.402344 C 35.199219 12.800781 37.5 12.902344 38.699219 13.300781 L 38.699219 13.097656 C 38.5 12.300781 38.101563 11.699219 37.800781 11.300781 C 36.300781 9 35.5 7.800781 34.097656 6.601563 C 33.5 6.101563 32 4.898438 29.800781 4.101563 C 28.800781 3.800781 27.597656 3.398438 26.097656 3.398438 Z M 37.152344 15.125 C 36.425781 15.074219 35.5 15.199219 34.699219 15.902344 C 34.300781 16.300781 34.300781 17.101563 34.402344 17.800781 C 34.402344 18.300781 34.5 19 36 22.402344 C 36.699219 24 36.898438 24.5 37 24.902344 C 37.101563 25.300781 37.199219 25.5 37.800781 26.597656 C 37.902344 26.800781 38 27 38.199219 27.199219 C 38.398438 26.898438 38.5 26.398438 38.597656 25.597656 L 38.699219 25.300781 C 38.898438 24.402344 38.800781 23.699219 38.800781 22.5 C 38.800781 21.898438 38.699219 21.5 38.699219 21.199219 C 38.597656 20.699219 38.597656 20.300781 38.597656 19.699219 C 38.398438 19.398438 38.398438 19.300781 38.5 19.097656 C 38.5 18.898438 38.597656 18.601563 38.699219 18 C 38.800781 17.199219 38.902344 16.5 38.902344 15.699219 C 38.699219 15.597656 38.601563 15.5 38.402344 15.402344 C 38.402344 15.402344 37.875 15.175781 37.152344 15.125 Z M 21.515625 15.519531 C 20.878906 15.445313 20.148438 15.652344 19.699219 15.800781 C 18.597656 16.101563 17.902344 16.800781 17.402344 17.199219 C 17.101563 17.5 16.800781 17.800781 16.5 18.199219 C 16.5 18.898438 16.597656 19.601563 16.699219 20.300781 L 16.699219 20.402344 L 16.5 22.402344 C 16.300781 23.300781 16.199219 25 17.199219 26.699219 C 17.699219 27.699219 18.402344 28.5 19.300781 29 C 19.902344 29.398438 20.699219 29.699219 21.597656 29.902344 C 21.597656 29.199219 21.699219 28.398438 21.800781 27.699219 C 22 26.699219 22.199219 26.199219 22.5 25.597656 C 22.601563 25.300781 22.699219 25.101563 22.902344 24.800781 C 23 24.5 24.398438 20.699219 23.097656 17.199219 C 22.800781 16.398438 22.5 15.898438 22.097656 15.699219 C 21.925781 15.597656 21.722656 15.542969 21.515625 15.519531 Z M 36.1875 16.089844 C 36.449219 16.074219 36.699219 16.097656 36.800781 16.199219 C 37.101563 16.398438 36.699219 16.898438 36.597656 17 C 36.5 17.101563 36.300781 17.300781 36 17.402344 C 35.601563 17.5 35.300781 17.199219 35.199219 17.199219 C 35.097656 17.097656 34.800781 16.800781 34.902344 16.5 C 35 16.300781 35.101563 16.300781 35.5 16.199219 C 35.648438 16.148438 35.925781 16.101563 36.1875 16.089844 Z M 21.15625 16.917969 C 21.492188 16.894531 21.773438 17.023438 22 17.097656 C 22.300781 17.199219 22.597656 17.300781 22.597656 17.5 C 22.699219 17.800781 22.402344 18 22.300781 18.097656 C 22 18.398438 21.5 18.402344 21.5 18.402344 C 21 18.402344 20.699219 18.101563 20.5 17.800781 C 20.398438 17.699219 20.300781 17.5 20.402344 17.300781 C 20.5 17.101563 20.699219 17 20.800781 17 C 20.925781 16.949219 21.042969 16.925781 21.15625 16.917969 Z M 39.5 30 C 39 30.699219 38.300781 31.601563 38.199219 32.800781 C 38.199219 33 38.199219 33.101563 38.097656 33.300781 C 38.898438 33.5 39.601563 33.5 40.300781 33.402344 C 41.902344 33.199219 43 32.398438 43.199219 32.199219 C 43.898438 31.699219 44.800781 30.699219 44.597656 30.300781 C 44.5 30.101563 44.199219 30.199219 42.597656 30.300781 C 42.199219 30.300781 41 30.601563 40.199219 30.402344 L 40 30.402344 C 39.800781 30.300781 39.601563 30.199219 39.5 30 Z M 22.097656 32 C 21.898438 32.300781 21.601563 32.5 21.402344 32.699219 C 20.601563 33.199219 19.597656 33.601563 18.597656 33.800781 C 17.699219 34.101563 17.199219 34.101563 17.199219 34.402344 C 17.097656 34.800781 18.097656 35.300781 18.597656 35.5 C 20.300781 36.199219 22 35.800781 22.300781 35.699219 C 22.5 35.597656 23 35.398438 23.5 35.097656 C 23.5 34 23.402344 33 23.300781 32.199219 L 23.300781 32.097656 L 23.199219 32.097656 C 22.898438 32.097656 22.5 32.101563 22.097656 32 Z"/></svg>
+                        <figcaption class="icons-container--icon-caption">PostgreSQL</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fa-brands fa-figma fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Figma</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fab fa-github fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Github</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fab fa-bitbucket fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Bitbucket</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3 col-md-2">
+                    <figure class="icons-container--figure">
+                        <i class="fab fa-trello fa-3x"></i>
+                        <figcaption class="icons-container--icon-caption">Trello</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
-        <section class="mt-3 mb-5 pb-5 text-center">
-            <h4 class="sub-heading">Connect</h4>
-            <hr class="sub-hr">
+        <hr/>
+        <section class="mt-5 mb-5 pb-5">
+            <h4 class="orange-text">Let's Connect</h4>
             <div id="social">
                 <a href="https://twitter.com/arafat_sambo" target="_blank" class="me-4 text-reset">
-                    <i class="fab fa-twitter fa-3x text-info"></i>
+                    <i class="fab fa-twitter fa-2x text-info"></i>
                 </a>
                 <a href="https://linkedin.com/in/sadiqsambo" class="me-4 text-reset">
-                    <i class="fab fa-linkedin fa-3x text-primary"></i>
+                    <i class="fab fa-linkedin fa-2x text-primary"></i>
                 </a>
                 <a href="https://github.com/saslamp" class="me-4 text-reset">
-                    <i class="fab fa-github fa-3x text-dark"></i>
+                    <i class="fab fa-github fa-2x text-dark"></i>
                 </a>
             </div>
         </section>
